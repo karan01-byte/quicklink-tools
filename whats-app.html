@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+    />
+    <title>Whatsapp Link Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container">
+       <nav class="navbar">
+   <ul>
+     <li><a href="index.html">QuickLink Tools</a></li>
+   </ul>
+   <ul>
+     <li><a href="whats-app.html">WAMI Link</a></li>
+     <li><a href="twitter.html">Twitter Link</a></li>
+     <li><a href="git-hub.html">Github Link Generator</a></li>
+   </ul>
+ </nav>
+      <hgroup>
+        <h1>Whatsapp Link Generator</h1>
+        <p>Create a custom whatsapp message and send it to your target audience</p>
+      </hgroup>
+    </header>
+    <main class="container">
+      <fieldset>
+        <input
+          type="number"
+          id="InputNumber"
+          placeholder="Enter mobile number here..."/>
+          
+          <textarea id="inputMessage" rows="4" cols="10" placeholder="Enter your message here..."></textarea>
+        <input type="submit" value="Generate Link" id="GenerateBtn"/>
+      </fieldset>
+
+      <div id="app"></div>
+    </main>
+    <script src="js/whats.js"></script>
+  </body>
+</html>
